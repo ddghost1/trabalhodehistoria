@@ -1,17 +1,193 @@
-<!DOCTYPE html>
-<html>
-  <head>
+<head>
     <meta charset="UTF-8">
-    <title>Bem-vindo</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <main>
-      <section>
-        <p><a href="Luiz Otavio.html">Seu trabalho</a></p>
-		<br>
-        <p><a href="Carlos Eduardo.html">Meu trabalho</a></p>
-      </section>
-    </main>
-  </body>
-</html>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Gemidão: Mande o gemidão do zap para seus amigos!</title>
+
+    <link rel="icon" type="image/png" href="favicon.png">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="description" content="Agora você pode realizar uma ligação gratuita, trolando os seus amigos com o gemidão do whatsapp.">
+    <meta name="keywords" content="troll, gemidao, gemido, whatsapp">
+    <meta name="robots" content="index,follow">
+    <meta name="rating" content="general">
+    <meta name="language" content="pt-br">
+
+    <!-- Open Graph -->
+    <meta property="og:locale" content="pt-br">
+    <meta property="og:url" content="http://gemidao.com.br">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Mande o gemidão do zap para seus amigos!">
+    <meta property="og:description" content="Agora você pode realizar uma ligação gratuita, trolando os seus amigos com o gemidão do whatsapp.">
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <style>
+      html, body { height:100%; }
+      body { background-image: url('bg.jpeg'); color: #eee;  }
+      html { display:table; width:100%; }
+      body { display:table-cell; text-align:center; vertical-align:middle; }
+    </style>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="" src="https://count-server.sharethis.com/v2.0/get_counts?cb=window.__sharethis__.cb&amp;url=http%3A%2F%2Fwww.gemidao.com.br%2F"></script><script async="" src="https://buttons-config.sharethis.com/js/5a5662a760405000131c1b53.js"></script><script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-112212977-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-112212977-1');
+    </script>
+  <style type="text/css">#st-1 {
+  font-family: "Helvetica Neue", Verdana, Helvetica, Arial, sans-serif;;
+  direction: ltr;
+  display: block;
+  opacity: 1;
+  text-align: center;
+  z-index: 94034;
+}
+#st-1.st-animated {
+  -moz-transition: o 0.2s ease-in, p 0.2s ease-in, a 0.2s ease-in, c 0.2s ease-in, i 0.2s ease-in, t 0.2s ease-in, y 0.2s ease-in; -ms-transition: o 0.2s ease-in, p 0.2s ease-in, a 0.2s ease-in, c 0.2s ease-in, i 0.2s ease-in, t 0.2s ease-in, y 0.2s ease-in; -o-transition: o 0.2s ease-in, p 0.2s ease-in, a 0.2s ease-in, c 0.2s ease-in, i 0.2s ease-in, t 0.2s ease-in, y 0.2s ease-in; -webkit-transition: o 0.2s ease-in, p 0.2s ease-in, a 0.2s ease-in, c 0.2s ease-in, i 0.2s ease-in, t 0.2s ease-in, y 0.2s ease-in; transition: o 0.2s ease-in, p 0.2s ease-in, a 0.2s ease-in, c 0.2s ease-in, i 0.2s ease-in, t 0.2s ease-in, y 0.2s ease-in;
+}
+#st-1.st-hidden {
+  opacity: 0;
+}
+#st-1.st-hide {
+  display: none;
+}
+#st-1 .st-btn {
+  -moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+  -moz-transition: opacity 0.2s ease-in, top 0.2s ease-in; -ms-transition: opacity 0.2s ease-in, top 0.2s ease-in; -o-transition: opacity 0.2s ease-in, top 0.2s ease-in; -webkit-transition: opacity 0.2s ease-in, top 0.2s ease-in; transition: opacity 0.2s ease-in, top 0.2s ease-in;
+  -moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  height: 48px;
+  line-height: 48px;
+  margin-right: 8px;
+  padding: 0 12px;
+  position: relative;
+  text-align: center;
+  top: 0;
+  vertical-align: top;
+  white-space: nowrap;
+}
+#st-1 .st-btn:last-child {
+  margin-right: 0;
+}
+#st-1 .st-btn > svg {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  top: 12px;
+  vertical-align: top;
+}
+#st-1 .st-btn > img {
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  position: relative;
+  top: 12px;
+  vertical-align: top;
+}
+#st-1 .st-btn > span {
+  -moz-transition: all 0.2s ease-in; -ms-transition: all 0.2s ease-in; -o-transition: all 0.2s ease-in; -webkit-transition: all 0.2s ease-in; transition: all 0.2s ease-in;
+  color: #fff;
+  display: inline-block;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  min-width: 75px;
+  opacity: 1;
+  padding: 0 6px;
+  position: relative;
+  vertical-align: top;
+}
+#st-1.st-has-labels .st-btn {
+  min-width: 150px;
+}
+#st-1.st-has-labels .st-btn.st-remove-label {
+  min-width: 50px;
+}
+#st-1.st-has-labels .st-btn.st-remove-label > span {
+  display: none;
+}
+#st-1.st-has-labels .st-btn.st-hide-label > span {
+  display: none;
+}
+#st-1 .st-total {
+  color: #555;
+  display: inline-block;
+  font-weight: 500;
+  line-height: 18px;
+  margin-right: 0;
+  max-width: 80px;
+  padding: 4px 8px;
+  text-align: center;
+}
+#st-1 .st-total.st-hidden {
+  display: none;
+}
+#st-1 .st-total > span {
+  font-size: 24px;
+  line-height: 26px;
+  display: block;
+  padding: 0;
+}
+#st-1 .st-total > span.st-shares {
+  font-size: 14px;
+  line-height: 14px;
+}
+#st-1.st-justified {
+  display: flex;
+  text-align: center;
+}
+#st-1.st-justified .st-btn {
+  -moz-flex: 1;
+-ms-flex: 1;
+-webkit-flex: 1;
+flex: 1;
+}#st-1 .st-btn:hover {
+  opacity: .8;
+  top: -4px;
+}#st-1 .st-btn[data-network='facebook'] {
+  background-color: #4267B2
+}
+#st-1 .st-btn[data-network='facebook'] img {
+  filter: 
+}
+#st-1 .st-btn[data-network='facebook'] > span {
+  color: #fff
+}
+#st-1 .st-btn[data-network='whatsapp'] {
+  background-color: #25d366
+}
+#st-1 .st-btn[data-network='whatsapp'] img {
+  filter: 
+}
+#st-1 .st-btn[data-network='whatsapp'] > span {
+  color: #fff
+}
+#st-1 .st-btn[data-network='twitter'] {
+  background-color: #55acee
+}
+#st-1 .st-btn[data-network='twitter'] img {
+  filter: 
+}
+#st-1 .st-btn[data-network='twitter'] > span {
+  color: #fff
+}
+#st-1 .st-btn[data-network='sharethis'] {
+  background-color: #95D03A
+}
+#st-1 .st-btn[data-network='sharethis'] img {
+  filter: 
+}
+#st-1 .st-btn[data-network='sharethis'] > span {
+  color: #fff
+}#st-1 .st-btn[data-network='snapchat'] > span {
+  color: #333};
+}</style></head>
